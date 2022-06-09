@@ -21,12 +21,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: J-WoW Learn 2 Code                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Documentation of projects and learning   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  This site is my attempt to document my progress as I explore different homelab things and experiment with other random bits of tech. Be Warned, I am quite dumb so if you've found this page you will be bored.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''

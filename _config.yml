@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   This site is my attempt to document my progress as I explore different homelab things and experiment with other random bits of tech. Be Warned, I am quite dumb so if you've found this page you will be bored.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'www.jwowlearn2code.com'
+url: ''
 
 github:
   username: J-WoW18             # change to your github username

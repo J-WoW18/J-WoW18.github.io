@@ -41,7 +41,8 @@ tags: [bk7321t, iot]
 # ESPHome
 ## ESPHome config
 * Pin config information used to generate a ESPHome YAML config file for the device
-```
+
+```yml
 esphome:
   name: enbrighten-dual-2
   friendly_name: enbrighten-dual-2

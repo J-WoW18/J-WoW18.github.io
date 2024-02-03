@@ -16,7 +16,7 @@ tags: [bk7321t, iot]
 * ![2b432073f1374b4ac216c51bd8fa24cf.png](_resources/2b432073f1374b4ac216c51bd8fa24cf.png)
 # Teardown & Connections
 ## External Photos
-* ![a1a4fa418b738ce88d917fd300e733f4.png](/_resources/a1a4fa418b738ce88d917fd300e733f4.png)
+* ![a1a4fa418b738ce88d917fd300e733f4.png](_resources/a1a4fa418b738ce88d917fd300e733f4.png)
 * ![5f84245f4334ff777ece6992f8d3e6f4.png](/_resources/5f84245f4334ff777ece6992f8d3e6f4.png)
 * ![9e6cbba1cad637490df4802762b60ddd.png](/_resources/9e6cbba1cad637490df4802762b60ddd.png)
 ## Internal Photos

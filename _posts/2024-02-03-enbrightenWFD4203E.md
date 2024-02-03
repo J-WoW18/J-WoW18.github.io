@@ -64,7 +64,7 @@ tags: [bk7321n, iot, enbrighten, wifi, bt]
 
 * Bottom of device with label
   
-![0f88e620bd9248a70bcc5fcd678cfa64.png](assets/0f88e620bd9248a70bcc5fcd678cfa64.png)
+![0f88e620bd9248a70bcc5fcd678cfa64.png](/assets/0f88e620bd9248a70bcc5fcd678cfa64.png)
 
 ## Internal Photos
 * There are four triangle screws holding the back cover on. Once open, the PCB with two relays and the CB2S module are exposed.

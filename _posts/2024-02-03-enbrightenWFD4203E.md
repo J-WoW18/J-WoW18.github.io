@@ -18,9 +18,13 @@ tags: [bk7321n, iot, enbrighten, wifi, bt]
 * Loking up the FCC ID online
 	* https://fcc.report/FCC-ID/QOB-WFD4203 
 * User manual available
+  
 ![fb9cd8bef1a14087420d030119d60ffc.png](/assets/fb9cd8bef1a14087420d030119d60ffc.png)
+
 * Internal photos in the database show a CB2S module attached to the main PCB.
+  
 ![a98d66d48703331f4dce49ac9044e5b4.png](/assets/a98d66d48703331f4dce49ac9044e5b4.png)
+
 ## CB2S Module
 * Pin diagram available online
 	* https://developer.tuya.com/en/docs/iot/cb2s-module-datasheet?id=Kafgfsa2aaypq
@@ -43,39 +47,63 @@ tags: [bk7321n, iot, enbrighten, wifi, bt]
 | Test point | CSN    | I/O      | Mode selection pin. If it is connected to the ground before being powered on, enter the firmware test mode. If it is not connected or connected to VCC before being powered on, enter the firmware application mode. It corresponds to P21 of the IC. |   |
 
 * Drawing of the front and back of module
+  
 ![9998d57df6d15a02be53c27dbfea2246.png](/assets/9998d57df6d15a02be53c27dbfea2246.png)
+
 ![b7ce6b147b92cbaf9fcf6d267a38c2ba.png](/assets/b7ce6b147b92cbaf9fcf6d267a38c2ba.png)
+
 # Teardown & Connections
 ## External Photos
 * Packaging opened and returned.
+  
 ![6e293cc9d36888b5854b9625b876a16e.png](/assets/6e293cc9d36888b5854b9625b876a16e.png)
+
 * Top of device
+  
 ![b6b2ccc29d185b3486920be04c1dfe86.png](/assets/b6b2ccc29d185b3486920be04c1dfe86.png)
+
 * Bottom of device with label
+  
 ![0f88e620bd9248a70bcc5fcd678cfa64.png](/assetss/0f88e620bd9248a70bcc5fcd678cfa64.png)
+
 ## Internal Photos
 * There are four triangle screws holding the back cover on. Once open, the PCB with two relays and the CB2S module are exposed.
+  
 ![e74848274cf85edaa51a4d84227c1dd4.png](/assets/e74848274cf85edaa51a4d84227c1dd4.png)
+
 * Orientation of the CB2S module shows 3.3v location towards the top and outside of the PCB.
+  
 ![b4b67b6cd17490476b5933ec6f870a6b.png](/assets/b4b67b6cd17490476b5933ec6f870a6b.png)
+
 * In the PCB holder and IDing 3.3V, GND, RX, TX pin that need to be connected to the serial to usb device
+  
 ![d3039ab13d8e9084fd67ef3c672bdfae.png](/assets/d3039ab13d8e9084fd67ef3c672bdfae.png)
+
 * Pins connected
+  
 ![154bac1fda380fedce2a1c4dbe4e6f06.png](/assets/154bac1fda380fedce2a1c4dbe4e6f06.png)
+
 * Powered on and connected to computer
+  
 ![e301ae035315991888ba45bfdeda5409.png](/assets/e301ae035315991888ba45bfdeda5409.png)
+
 # Firmware Dump
 * Serial to USB converter connected up to computer and ltchiptool was used to interact with the CB2S module.
 	* https://github.com/libretiny-eu/ltchiptool
 
 ## Chip Info
 * Chip info showing the BK7231N chip
+  
 ![3bef2e6852bb497a972f3d5342affa74.png](/assets/3bef2e6852bb497a972f3d5342affa74.png)
+
 ## Read Flash
 * Firmware saved and re-read in LTChiptool to figure out pin assigments and configurations
+  
 ![2024-02-02 18_26_17-enbright_dual_outdoor_1.png](/assets/2024-02-02%2018_26_17-enbright_dual_outdoor_1.png)
+
 # ESPHome
 ## ESPHome Config
+
 ```YML
 esphome:
   name: enbrighten-dual-1
@@ -134,12 +162,17 @@ light:
       number: P7
       inverted: true
 ```
+
 * In Home Assistant and ESPHome, a new device is created matching the device name in the YAML. Device can be installed, downloaded and flashed using LTChiptool.
+  
 ## ESPHome Operation
 * After flashing and power cycling the device. Pins were unhooked and the 120V outlet is plugged in. After a few seconds the device joined
 * ESPHome dashboard showin operation and individual relay operation
+  
 ![0ea7460fc8937ee9ed808556a8ee0368.png](/assets/0ea7460fc8937ee9ed808556a8ee0368.png)
+
 * Webserver view showing the same individual control of the relays for each outlet
+  
 ![7c23c5cb067349472d88db7367eeb414.png](/assets/7c23c5cb067349472d88db7367eeb414.png)
 
 # Final Thoughts

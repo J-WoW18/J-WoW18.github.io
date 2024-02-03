@@ -120,8 +120,8 @@ wifi:
   password: !secret wifi_password2
   fast_connect: true
   manual_ip:
-    static_ip: 192.168.20.93
-    gateway: 192.168.20.1
+    static_ip: 192.168.X0.XX
+    gateway: 192.168.X0.1
     subnet: 255.255.255.0
 text_sensor:
   - platform: libretiny

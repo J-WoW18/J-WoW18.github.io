@@ -4,8 +4,6 @@ date: 2024-02-03 08:00:00 -500
 categories: [homelab, IOT]
 tags: [bk7321t, iot]
 ---
-
-
 # Device Info
 * enbrighten - WFD4201E
 * Model: WFD4201E

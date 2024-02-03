@@ -104,7 +104,7 @@ tags: [bk7321n, iot, enbrighten, wifi, bt]
 # ESPHome
 ## ESPHome Config
 
-```YML
+```yml
 esphome:
   name: enbrighten-dual-1
 bk72xx:

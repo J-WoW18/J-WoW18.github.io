@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Enbrighten - WFD4201E
 date: 2024-02-03 08:00:00 -500
 categories: [homelab, IOT]

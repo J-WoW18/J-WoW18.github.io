@@ -10,23 +10,23 @@ tags: [bk7321n, iot, enbrighten, wifi, bt]
 * Model # 74517 - WDF4204
 * FCC ID: QOBWFD4204
 
-![058897c32dc854df8ef4bddc1050b2fa.png](../_resources/058897c32dc854df8ef4bddc1050b2fa.png)
+![058897c32dc854df8ef4bddc1050b2fa.png](/assets/058897c32dc854df8ef4bddc1050b2fa.png)
 ## Acquisition
 * Got this 6 outlet smart outdoor yard stake from the local return auction for $2.50. Normally these go for $10-20.
 
-![9214bdeb77b6b3c3129aa366874ab1c2.png](../_resources/9214bdeb77b6b3c3129aa366874ab1c2.png)
+![9214bdeb77b6b3c3129aa366874ab1c2.png](/assets/9214bdeb77b6b3c3129aa366874ab1c2.png)
 
 ## FCC ID Lookup
 * Look up the model number online to get an idea of what to expect inside
 	* https://fccid.io/QOBWFD4204
 ### Internal Photos
-![7cc6620ee619cbf3412c1c0694ee4f77.png](../_resources/7cc6620ee619cbf3412c1c0694ee4f77.png)
-![9b4a0547f6d00463ecdc42ade6fe8e1d.png](../_resources/9b4a0547f6d00463ecdc42ade6fe8e1d.png)
-![b74d7de8b6032e6a3b5eb346a8292119.png](../_resources/b74d7de8b6032e6a3b5eb346a8292119.png)
-![ef3195d5b18181be38bcb354c49f4a76.png](../_resources/ef3195d5b18181be38bcb354c49f4a76.png)
-![9a2dc3983688e1fad1430294a61f27fa.png](../_resources/9a2dc3983688e1fad1430294a61f27fa.png)
+![7cc6620ee619cbf3412c1c0694ee4f77.png](/assets/7cc6620ee619cbf3412c1c0694ee4f77.png)
+![9b4a0547f6d00463ecdc42ade6fe8e1d.png](/assets/9b4a0547f6d00463ecdc42ade6fe8e1d.png)
+![b74d7de8b6032e6a3b5eb346a8292119.png](/assets/b74d7de8b6032e6a3b5eb346a8292119.png)
+![ef3195d5b18181be38bcb354c49f4a76.png](/assets/ef3195d5b18181be38bcb354c49f4a76.png)
+![9a2dc3983688e1fad1430294a61f27fa.png](/assets/9a2dc3983688e1fad1430294a61f27fa.png)
 ### User Manual
-![98a3154230c8767fb147e2b6d44bc923.png](../_resources/98a3154230c8767fb147e2b6d44bc923.png)
+![98a3154230c8767fb147e2b6d44bc923.png](/assets/98a3154230c8767fb147e2b6d44bc923.png)
 
 ## CB2S Module
 * Pin diagram available online
@@ -51,8 +51,8 @@ tags: [bk7321n, iot, enbrighten, wifi, bt]
 
 * Drawing of the front and back of module
 
-![9998d57df6d15a02be53c27dbfea2246.png](../_resources/9998d57df6d15a02be53c27dbfea2246.png)
-![b7ce6b147b92cbaf9fcf6d267a38c2ba.png](../_resources/b7ce6b147b92cbaf9fcf6d267a38c2ba.png)
+![9998d57df6d15a02be53c27dbfea2246.png](/assets/9998d57df6d15a02be53c27dbfea2246.png)
+![b7ce6b147b92cbaf9fcf6d267a38c2ba.png](/assets/b7ce6b147b92cbaf9fcf6d267a38c2ba.png)
 
 # Wireless Exploits
 * There has been alot of great work on exploiting these IOT devices that are associated with the TUYA system of systems. The Tuya-Cloudcutter software has been updated and figured I'd give this another shot. I had tried to use this a year or so back without luck, maybe this device will be different...
@@ -71,40 +71,40 @@ tags: [bk7321n, iot, enbrighten, wifi, bt]
 ## External Photos
 * Gotta love triangle security screws... four of them and the top can come off
 
-![ad55a0d27be2ab45c4248b5778be4ef6.png](../_resources/ad55a0d27be2ab45c4248b5778be4ef6.png)
+![ad55a0d27be2ab45c4248b5778be4ef6.png](/assets/ad55a0d27be2ab45c4248b5778be4ef6.png)
 * looks just like the internal photos from FCC database
  
- ![4d7cc4adb14ffc354636d2a13a29c5f8.png](../_resources/4d7cc4adb14ffc354636d2a13a29c5f8.png)
+ ![4d7cc4adb14ffc354636d2a13a29c5f8.png](/assets/4d7cc4adb14ffc354636d2a13a29c5f8.png)
  * Better look at the CB2S module and the single relay for the 6 outlets
  
- ![d55df1d95fc5391eb63917db3cc9af00.png](../_resources/d55df1d95fc5391eb63917db3cc9af00.png)
+ ![d55df1d95fc5391eb63917db3cc9af00.png](/assets/d55df1d95fc5391eb63917db3cc9af00.png)
  
 * Welp.... that might be the issue with it not powering on...
 
-![ab7d82d607f73b696687b5509d636a7e.png](../_resources/ab7d82d607f73b696687b5509d636a7e.png)
+![ab7d82d607f73b696687b5509d636a7e.png](/assets/ab7d82d607f73b696687b5509d636a7e.png)
 
 * Putting it on the pcb holder and mapping out the pins for the serial to usb connection
 
-![6eb23ca9283fa0e47758c7de32b765c1.png](../_resources/6eb23ca9283fa0e47758c7de32b765c1.png)
+![6eb23ca9283fa0e47758c7de32b765c1.png](/assets/6eb23ca9283fa0e47758c7de32b765c1.png)
 * All wired up and connected to the computer
 
-![1b3da10d0a485afd817ba72ba532344b.png](../_resources/1b3da10d0a485afd817ba72ba532344b.png)
+![1b3da10d0a485afd817ba72ba532344b.png](/assets/1b3da10d0a485afd817ba72ba532344b.png)
 
 # Firmware Dump
 * Serial to USB converter connected up to computer and ltchiptool was used to interact with the CB2S module.
 	* https://github.com/libretiny-eu/ltchiptool
 
 ## Chip Info
-![eb202884b3fedfed8cdd6b736e1c2705.png](../_resources/eb202884b3fedfed8cdd6b736e1c2705.png)
+![eb202884b3fedfed8cdd6b736e1c2705.png](/assets/eb202884b3fedfed8cdd6b736e1c2705.png)
 
 ## Read Flash
 * Firmware saved twice
 
- ![b1a6ef58f526bbc2f2a49fb9ea17460b.png](../_resources/b1a6ef58f526bbc2f2a49fb9ea17460b.png)
+ ![b1a6ef58f526bbc2f2a49fb9ea17460b.png](/assets/b1a6ef58f526bbc2f2a49fb9ea17460b.png)
  
  * Reading the firmware with LTChiptool to get pin assignments and configurations
  
-![214a31a9016bd2678afbd3228c4f926d.png](../_resources/214a31a9016bd2678afbd3228c4f926d.png)
+![214a31a9016bd2678afbd3228c4f926d.png](/assets/214a31a9016bd2678afbd3228c4f926d.png)
 # ESPHome
 ## ESPHome Config
 

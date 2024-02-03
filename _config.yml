@@ -44,11 +44,12 @@ social:
   email: www.jwowlearn2code.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - mailto:info@jwowlearn2code.com     # change to your twitter homepage
+    #- mailto:info@jwowlearn2code.com     # change to your twitter homepage
     # - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+    - https://www.youtube.com/@jwowvsworld
 
 google_site_verification:               # fill in to your verification string
 

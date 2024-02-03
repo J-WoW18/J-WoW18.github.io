@@ -9,11 +9,11 @@ tags: [bk7321t, iot]
 * Model: WFD4201E
 * FCC ID: QOB-WFD4201
 * https://fcc.report/FCC-ID/QOB-WFD4201/
-* ![e95d388d6ecb761205421019641abf45.png](/_resources/e95d388d6ecb761205421019641abf45.png)
+* ![e95d388d6ecb761205421019641abf45.png](_resources/e95d388d6ecb761205421019641abf45.png)
 	* https://fcc.report/FCC-ID/QOB-WFD4201/4852019
 * No Internal Photos
 ## Acquisition
-* ![2b432073f1374b4ac216c51bd8fa24cf.png](/_resources/2b432073f1374b4ac216c51bd8fa24cf.png)
+* ![2b432073f1374b4ac216c51bd8fa24cf.png](_resources/2b432073f1374b4ac216c51bd8fa24cf.png)
 # Teardown & Connections
 ## External Photos
 * ![a1a4fa418b738ce88d917fd300e733f4.png](/_resources/a1a4fa418b738ce88d917fd300e733f4.png)

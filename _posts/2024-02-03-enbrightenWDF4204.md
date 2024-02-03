@@ -72,6 +72,7 @@ tags: [bk7321n, iot, enbrighten, wifi, bt]
 * Gotta love triangle security screws... four of them and the top can come off
 
 ![ad55a0d27be2ab45c4248b5778be4ef6.png](/assets/ad55a0d27be2ab45c4248b5778be4ef6.png)
+## Internal Photos
 * looks just like the internal photos from FCC database
  
  ![4d7cc4adb14ffc354636d2a13a29c5f8.png](/assets/4d7cc4adb14ffc354636d2a13a29c5f8.png)

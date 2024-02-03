@@ -111,4 +111,4 @@ status_led:
 * Config file built, downloaded and flashed using LTChiptool
 ## ESPHome Operation
 * Operation through home assistant app and webserver on chip successfully turns the single relay on/off
-* ![6da27b5dbee1e0abb89f5bfa23720f0d.png](../_resources/6da27b5dbee1e0abb89f5bfa23720f0d.png)
+* ![6da27b5dbee1e0abb89f5bfa23720f0d.png](_resources/6da27b5dbee1e0abb89f5bfa23720f0d.png)

@@ -11,6 +11,7 @@ tags: [bk7321t, iot, enbrighten, wifi, bt]
 * Model: WFD4201E
 * FCC ID: QOB-WFD4201
 * https://fcc.report/FCC-ID/QOB-WFD4201/
+  
 ![e95d388d6ecb761205421019641abf45.png](/assets/e95d388d6ecb761205421019641abf45.png)
 	* https://fcc.report/FCC-ID/QOB-WFD4201/4852019
 * No Internal Photos

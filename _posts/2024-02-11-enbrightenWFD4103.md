@@ -38,7 +38,7 @@ tags: [bk7321t, iot, enbrighten, wifi, bt]
 	* https://developer.tuya.com/en/docs/iot/cb2s-module-datasheet?id=Kafgfsa2aaypq
 
 # Wireless Exploits
-* Since this is a single plug and his held together by screws and compression... I'm hoping the tuya-cloudcutter will work instead of having to potentially destroy and rip apart the plaster case.
+* Since this is a single plug and is not held together by screws and compression... I'm hoping the tuya-cloudcutter will work instead of having to potentially destroy and rip apart the plaster case.
 ## Tuya-Cloudcutter
 * https://github.com/tuya-cloudcutter/tuya-cloudcutter
 	* "This repository contains the toolchain to exploit a wireless vulnerability that can jailbreak some of the latest smart devices built with the bk7231 chipset under various brand names by Tuya. "
@@ -58,12 +58,12 @@ tags: [bk7321t, iot, enbrighten, wifi, bt]
 
 ![1b1382547e87fb46971b5117af609540.png](/assets/1b1382547e87fb46971b5117af609540.png)
 ## Results
-* Not succesful trying both flash profiles. Most likely these two other pre-built profiles have different keys or something that is different enough it wont autheticate and allow the re-write. Guess it's on to opening it up....
+* Not succesful trying flash both profiles. Most likely these two other pre-built profiles have different keys or something that is different enough it wont autheticate and allow the re-write. Or I keep screwing up the last part powering back on the device and it exits running the script too soon. Guess it's on to opening it up....
 
 # Teardown & Connections
 ## External Photos
 * Turned on the poor mans hot plate to try to heat and soften the glue before trying to separate the top and bottom parts of the plug.
-* ![25849062d36a2df523bfac1822925ab2.png](/assets/25849062d36a2df523bfac1822925ab2.png)
+![25849062d36a2df523bfac1822925ab2.png](/assets/25849062d36a2df523bfac1822925ab2.png)
 
 * Heat helped a little but still required a good bit of cutting through and prying up
 
@@ -144,8 +144,8 @@ status_led:
 ```
 * In Home Assistant and ESPHome, a new device is created matching the device name in the YAML. Device can be installed, downloaded and flashed using LTChiptool.
 ## ESPHome Operation
-* After flashing the device was put back together and then plugged into an outlet. After a few seconds the device popped up on Home Assistant as a new Device. 
-* ESPHome dashboard showin operation and individual relay operation
+* After flashing, the device was put back together and then plugged into an outlet. After a few seconds the device popped up on Home Assistant as a new Device. 
+* ESPHome dashboard showing information and relay operation
 
 ![ec525ec53ced957d747915f3e0cb1872.png](/assets/ec525ec53ced957d747915f3e0cb1872.png)
 
@@ -154,5 +154,5 @@ status_led:
 ![de8d005169c2feff06b2eaa12affb513.png](/assets/de8d005169c2feff06b2eaa12affb513.png)
 
 # Final Thoughts
-* Was hoping this would work of Tuya Cloud-cutter instead of having to open and flash it manually. Another simple little smart plug integrated with Home Assistant.
+* Was hoping this would work with Tuya Cloud-cutter instead of having to open and flash it manually. Another simple little smart plug integrated with Home Assistant.
 * I will start looking at how to contribute firmware and profiles back to the repo so in the future others can have it working for this model.

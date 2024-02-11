@@ -26,6 +26,7 @@ tags: [bk7321t, iot, enbrighten, wifi, bt]
 	
 ## Internal Photos
 * Internal photos found for the older FCC ID
+
 ![1b556f2f469f96143ce863dd281b069d.png](/assets/1b556f2f469f96143ce863dd281b069d.png)
 
 * Looks like it's a CB2S module 

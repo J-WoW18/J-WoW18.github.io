@@ -72,7 +72,7 @@ tags: [iot, utilitech, rf, hackrf, urh]
 ### Record Signal 
 * Record the on and off signals from the 0323 transmitter
 
-[0323TX_on_off_signal_record.mp4](/assets/0323TX_on_off_signal_record.mp4)
+![0323TX_on_off_signal_record.mp4](/assets/0323TX_on_off_signal_record.mp4)
 
 
 ### Analysis - Interpretation Tab

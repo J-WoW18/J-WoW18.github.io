@@ -117,7 +117,6 @@ tags: [iot, utilitech, rf, hackrf, urh]
 
 ## Pair Signal
 * Repeating the same steps as above to capture and analyze the pair signal for the `0323` transmitter
-`insert video`
 
 
 <video controls="" width="800" height="500" muted="">

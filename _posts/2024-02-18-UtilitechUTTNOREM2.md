@@ -109,8 +109,9 @@ tags: [iot, utilitech, rf, hackrf, urh]
 ![9760f3ef0d73678828b11bbae484c9c7.png](/assets/9760f3ef0d73678828b11bbae484c9c7.png)
 
 
-[0323TX_SignalGenerator.mp4](/assets/0323TX_SignalGenerator.mp4)
-
+<video controls="" width="800" height="500" muted="">
+<source src="https://www.jwowlearn2code.com/assets/0323TX_SignalGenerator.mp4" type="video/mp4">
+</video>
 
 * It successfully turns the outlet on and off
 
@@ -119,8 +120,9 @@ tags: [iot, utilitech, rf, hackrf, urh]
 `insert video`
 
 
-[0323TX_pairing_ananalysis.mp4](/assets/0323TX_pairing_ananalysis.mp4)
-
+<video controls="" width="800" height="500" muted="">
+<source src="https://www.jwowlearn2code.com/assets/0323TX_pairing_ananalysis.mp4" type="video/mp4">
+</video>
 
 ## Breakout Analysis
 * Trying to just visual and understand the differences...

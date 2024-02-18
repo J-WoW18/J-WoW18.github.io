@@ -2,8 +2,8 @@
 layout: post
 title: Utilitech - UTTNOREM2
 date: 2024-02-18 08:00:00 -500
-categories: [homelab, IOT]
-tags: [iot, utilitech, rf, hackrf, urh] 
+categories: [homelab, other]
+tags: [utilitech, rf, hackrf, urh] 
 ---
 
 * Picked up a few of these outdoor wireless remote control outlets over the past few weeks. They are not bluetooth or wifi and seem to be operate like a garage door opener with and `on` and `off` button
